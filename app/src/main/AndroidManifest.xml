@@ -14,6 +14,9 @@
         android:theme="@style/Theme.GelismisKomutlarUnite5"
         tools:targetApi="31">
         <activity
+            android:name=".SiraSizde1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -22,19 +25,45 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Uyg1Activity" android:label="@string/uyg1_isim"></activity>
-        <activity android:name=".Uyg2Activity" android:label="@string/uyg2_isim"></activity>
-        <activity android:name=".Uyg3Activity" android:label="@string/uyg3_isim"></activity>
-        <activity android:name=".Uyg4Activity" android:label="@string/uyg4_isim"></activity>
-        <activity android:name=".Uyg5Activity" android:label="@string/uyg5_isim"></activity>
-        <activity android:name=".Uyg6Activity" android:label="@string/uyg6_isim"></activity>
-        <activity android:name=".Uyg7Activity" android:label="@string/uyg7_isim"></activity>
-        <activity android:name=".Uyg8Activity" android:label="@string/uyg8_isim"></activity>
-        <activity android:name=".Uyg9Activity" android:label="@string/uyg9_isim"></activity>
-        <activity android:name=".Uyg10Activity" android:label="@string/uyg10_isim"></activity>
-        <activity android:name=".Uyg11Activity" android:label="@string/uyg11_isim"></activity>
-        <activity android:name=".Uyg12Activity" android:label="@string/uyg12_isim"></activity>
-        <activity android:name=".Uyg13Activity" android:label="@string/uyg13_isim"></activity>
+        <activity
+            android:name=".Uyg1Activity"
+            android:label="@string/uyg1_isim" />
+        <activity
+            android:name=".Uyg2Activity"
+            android:label="@string/uyg2_isim" />
+        <activity
+            android:name=".Uyg3Activity"
+            android:label="@string/uyg3_isim" />
+        <activity
+            android:name=".Uyg4Activity"
+            android:label="@string/uyg4_isim" />
+        <activity
+            android:name=".Uyg5Activity"
+            android:label="@string/uyg5_isim" />
+        <activity
+            android:name=".Uyg6Activity"
+            android:label="@string/uyg6_isim" />
+        <activity
+            android:name=".Uyg7Activity"
+            android:label="@string/uyg7_isim" />
+        <activity
+            android:name=".Uyg8Activity"
+            android:label="@string/uyg8_isim" />
+        <activity
+            android:name=".Uyg9Activity"
+            android:label="@string/uyg9_isim" />
+        <activity
+            android:name=".Uyg10Activity"
+            android:label="@string/uyg10_isim" />
+        <activity
+            android:name=".Uyg11Activity"
+            android:label="@string/uyg11_isim" />
+        <activity
+            android:name=".Uyg12Activity"
+            android:label="@string/uyg12_isim" />
+        <activity
+            android:name=".Uyg13Activity"
+            android:label="@string/uyg13_isim" />
     </application>
 
 </manifest>
