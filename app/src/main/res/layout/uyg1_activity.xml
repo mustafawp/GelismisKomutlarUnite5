@@ -17,4 +17,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.971" />
+
+    <Button
+        android:id="@+id/uyg1_MesajVer1"
+        android:layout_width="182dp"
+        android:layout_height="52dp"
+        android:onClick="btnClicks1"
+        android:text="@string/uyg1_txt1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <Button
+        android:id="@+id/uyg1_MesajVer2"
+        android:layout_width="182dp"
+        android:layout_height="52dp"
+        android:onClick="btnClicks2"
+        android:text="@string/uyg1_txt2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg1_MesajVer1"
+        app:layout_constraintVertical_bias="0.017" />
 </androidx.constraintlayout.widget.ConstraintLayout>
