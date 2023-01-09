@@ -16,4 +16,13 @@
     <string name="geri">Geri</string>
     <string name="uyg1_txt1">Selam Ver 1</string>
     <string name="uyg1_txt2">Selam Ver 2</string>
+    <string name="say_1">Sayı 1</string>
+    <string name="topla_ve_g_ster">Topla ve göster</string>
+    <string name="say_2">Sayı 2</string>
+    <string name="sonu_burada_g_z_kecek">Sonuç Burada gözükecek.</string>
+    <string name="ss_169_txt">Sayı Giriniz</string>
+    <string name="topla">Topla</string>
+    <string name="kar">Çıkar</string>
+    <string name="b_l">BÖL</string>
+    <string name="arp">ÇARP</string>
 </resources>
