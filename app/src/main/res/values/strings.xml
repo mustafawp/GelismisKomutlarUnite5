@@ -25,4 +25,13 @@
     <string name="kar">Çıkar</string>
     <string name="b_l">BÖL</string>
     <string name="arp">ÇARP</string>
+    <string name="_2_say_y_topla">2 Sayıyı topla</string>
+    <string name="_3_say_y_topla">3 Sayıyı Topla</string>
+    <string name="say_12">Sayı 1</string>
+    <string name="say_23">Sayı 2</string>
+    <string name="say_3">Sayı 3</string>
+    <string name="soyad_n_z">Soyadınız..</string>
+    <string name="ad_n_z">Adınız..</string>
+    <string name="merhaba_1">Merhaba 1</string>
+    <string name="merhaba_2">Merhaba 2</string>
 </resources>

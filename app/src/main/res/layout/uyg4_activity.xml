@@ -17,4 +17,78 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.971" />
+
+    <EditText
+        android:id="@+id/uyg4_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/say_12"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/uyg4_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/say_23"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg4_txt1"
+        app:layout_constraintVertical_bias="0.019"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/uyg4_txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/say_3"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg4_txt2"
+        app:layout_constraintVertical_bias="0.018"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/uyg4_ikitoplabtn"
+        android:layout_width="127dp"
+        android:layout_height="51dp"
+        android:onClick="ikiToplaBtn"
+        android:text="@string/_2_say_y_topla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg4_txt3"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <Button
+        android:id="@+id/uyg4_uctoplabtn"
+        android:layout_width="127dp"
+        android:layout_height="51dp"
+        android:onClick="ucToplaBtn"
+        android:text="@string/_3_say_y_topla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg4_txt3"
+        app:layout_constraintVertical_bias="0.057" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -82,4 +82,8 @@ public class MainActivity extends AppCompatActivity {
         Intent uyg = new Intent(MainActivity.this, SiraSizde1.class);
         startActivity(uyg);
     }
+    public void btnSiraSizde2(View view) {
+        Intent uyg = new Intent(MainActivity.this, ss_173_Activity.class);
+        startActivity(uyg);
+    }
 }
