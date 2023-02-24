@@ -14,6 +14,9 @@
         android:theme="@style/Theme.GelismisKomutlarUnite5"
         tools:targetApi="31">
         <activity
+            android:name=".ss_188_Activity"
+            android:exported="false" />
+        <activity
             android:name=".ss_173_Activity"
             android:exported="false" />
         <activity

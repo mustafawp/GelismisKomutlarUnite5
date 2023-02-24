@@ -1,24 +1,15 @@
 package com.example.gelismiskomutlarunite5;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Toast;
-
-public class SiraSizde1 extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.sirasizde1_activity);
+public class SiraSizde188 {
+    public int dd = 0;
+    public SiraSizde188(int deger) {
+        dd = deger * 3;
+    }
+    public SiraSizde188(int deger1,int deger2) {
+        dd = deger1 + deger2 + deger2;
+    }
+    public SiraSizde188(int deger1,int deger2, int deger3) {
+        dd = deger1 + deger2 + deger3;
     }
 
-    public void btnSiraSizde(View view){
-        sayilaritopla();
-    }
-    private void sayilaritopla(){
-        int islem = 5 + 10;
-        Toast.makeText(this, "Sonuç " + islem, Toast.LENGTH_SHORT).show();
-    }
 }
