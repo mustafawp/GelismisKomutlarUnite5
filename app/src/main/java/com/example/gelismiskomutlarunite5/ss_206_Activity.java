@@ -9,18 +9,19 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Uyg10Activity extends AppCompatActivity {
-    Button AskerBtn,TopcuBtn;
+public class ss_206_Activity extends AppCompatActivity {
+    Button AskerBtn,TankciBtn,TopcuBtn;
     TextView text;
     private void tanimlamalar(){
-        AskerBtn = findViewById(R.id.Uyg10AskerBtn);
-        TopcuBtn = findViewById(R.id.uyg10TankciBtn);
-        text = findViewById(R.id.ss206Sonuc);
+        AskerBtn = findViewById(R.id.ss206_AskerBtn);
+        TankciBtn = findViewById(R.id.ss206_TankciBtn);
+        TopcuBtn = findViewById(R.id.ss206_TopcuBtn);
+        text = findViewById(R.id.ss206Sonuc2);
     }
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.uyg10_activity);
+        setContentView(R.layout.ss_206layout);
         tanimlamalar();
     }
     public void asker(View view){
@@ -31,9 +32,13 @@ public class Uyg10Activity extends AppCompatActivity {
         Uyg10Topcu mesaj = new Uyg10Topcu();
         text.setText(mesaj.ates());
     }
+    public void topcua(View view){
+        ss206Topcu mesaj = new ss206Topcu();
+        text.setText(mesaj.ates());
+    }
 
     public void btnBack(View view) {
-        Intent uyg = new Intent(Uyg10Activity.this, MainActivity.class);
+        Intent uyg = new Intent(ss_206_Activity.this, MainActivity.class);
         startActivity(uyg);
     }
 }

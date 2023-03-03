@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/ss206Sonuc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sonuç Burada Yazacak."
-        android:textColor="@color/design_default_color_primary"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.12" />
-
     <Button
-        android:id="@+id/btnBack"
+        android:id="@+id/btnBack2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="btnBack"
@@ -33,31 +18,56 @@
         app:layout_constraintVertical_bias="0.971" />
 
     <Button
-        android:id="@+id/Uyg10AskerBtn"
+        android:id="@+id/ss206_AskerBtn"
         android:layout_width="147dp"
         android:layout_height="56dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginBottom="528dp"
         android:onClick="asker"
         android:text="Asker"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.181"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ss206Sonuc"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/ss206Sonuc2"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/uyg10TankciBtn"
+        android:id="@+id/ss206_TankciBtn"
         android:layout_width="147dp"
         android:layout_height="56dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginBottom="528dp"
         android:onClick="topcu"
         android:text="Tankçı"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.814"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ss206Sonuc"
-        app:layout_constraintVertical_bias="0.001" />
+        app:layout_constraintTop_toBottomOf="@+id/ss206Sonuc2"
+        app:layout_constraintVertical_bias="1.0" />
 
+    <Button
+        android:id="@+id/ss206_TopcuBtn"
+        android:layout_width="147dp"
+        android:layout_height="56dp"
+        android:onClick="topcua"
+        android:text="Topçu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ss206_AskerBtn"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/ss206Sonuc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sonuç Burada Yazacak."
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
 </androidx.constraintlayout.widget.ConstraintLayout>
