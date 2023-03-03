@@ -32,10 +32,10 @@ public class Uyg11Activity extends AppCompatActivity {
         topla.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(ix < 5){
+                if(ix < 6){
                     int eklenecek = Integer.parseInt(sayi.getText().toString());
-                    ix++;
                     sayilar[ix] = eklenecek;
+                    ix++;
                     index.setText("İndex: "+ix);
                     int toplam = 0;
                     for(int i = 0;i <= ix;i++){
