@@ -17,4 +17,128 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.971" />
+
+    <TextView
+        android:id="@+id/uyg8FaaliyetlerTw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faaliyetler"
+        android:textSize="30sp"
+        android:textColor="@color/purple_700"
+        android:fontFamily="sans-serif-condensed-light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <Button
+        android:id="@+id/uyg8AracBilgisi"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:text="--"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg8FaaliyetlerTw"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/uyg8AracKapiSayisi"
+        android:layout_width="141dp"
+        android:layout_height="53dp"
+        android:text="Araç Kapı Sayısı"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg8AracBilgisi"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/uyg8AracMaksHiz"
+        android:layout_width="141dp"
+        android:layout_height="53dp"
+        android:text="Araç Maks Hızı"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg8AracKapiSayisi"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <Button
+        android:id="@+id/uyg8AracCalistir"
+        android:layout_width="141dp"
+        android:layout_height="53dp"
+        android:text="Aracı Çalıştır"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg8AracMaksHiz"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/uyg8AracIseGit"
+        android:layout_width="141dp"
+        android:layout_height="53dp"
+        android:text="Araçla İşe Git"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg8AracMaksHiz"
+        app:layout_constraintVertical_bias="0.182" />
+
+    <Button
+        android:id="@+id/uyg8MinibusKapiSayisi"
+        android:layout_width="141dp"
+        android:layout_height="53dp"
+        android:text="Minibüs Kapı Sayısı"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg8AracMaksHiz"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <Button
+        android:id="@+id/uyg8MinibusMaksHiz"
+        android:layout_width="141dp"
+        android:layout_height="53dp"
+        android:text="Minibüs Maks Hızı"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg8AracMaksHiz"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <Button
+        android:id="@+id/uyg8MinibusCalistir"
+        android:layout_width="141dp"
+        android:layout_height="53dp"
+        android:text="Minibüsü Çalıştır"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg8AracMaksHiz"
+        app:layout_constraintVertical_bias="0.701" />
+
+    <Button
+        android:id="@+id/uyg8MinibusYolcuIndir"
+        android:layout_width="141dp"
+        android:layout_height="53dp"
+        android:text="Minibüsten Yolcu İndir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg8AracMaksHiz"
+        app:layout_constraintVertical_bias="0.87" />
 </androidx.constraintlayout.widget.ConstraintLayout>
