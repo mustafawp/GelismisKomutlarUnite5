@@ -14,6 +14,9 @@
         android:theme="@style/Theme.GelismisKomutlarUnite5"
         tools:targetApi="31">
         <activity
+            android:name=".goldsoru_1"
+            android:exported="false" />
+        <activity
             android:name=".ss_188_Activity"
             android:exported="false" />
         <activity
@@ -77,7 +80,7 @@
         <activity
             android:name=".Uyg13Activity"
             android:label="@string/uyg13_isim" />
-        <activity android:name=".ss_206_Activity"/>
+        <activity android:name=".ss_206_Activity" />
     </application>
 
 </manifest>

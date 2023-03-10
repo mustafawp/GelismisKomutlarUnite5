@@ -94,4 +94,8 @@ public class MainActivity extends AppCompatActivity {
         Intent uyg = new Intent(MainActivity.this, ss_206_Activity.class);
         startActivity(uyg);
     }
+    public void btnGoldSoru1(View view) {
+        Intent uyg = new Intent(MainActivity.this, goldsoru_1.class);
+        startActivity(uyg);
+    }
 }
